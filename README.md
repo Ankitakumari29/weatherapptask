@@ -2,13 +2,20 @@
 
 # hosted link
 
-https://panchavti-motels24.netlify.app/
+https://resonant-fox-dafe82.netlify.app/
 
 # Dependencies used
 
 1. react-router-dom
 2. fontawesome
 3. react-date-range
+4.@emotion/react
+5.@emotion/styled
+6.@mui/icons-material
+7.@mui/material
+8.loader-utils
+
+
 
 # Getting Started with Create React App
 
