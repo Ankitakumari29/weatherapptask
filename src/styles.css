@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Passion+One");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/258149/pexels-photo-258149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+h2 {
+  color: #bfe4f7;
+  font-size: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.box_container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.boxx {
+  padding: 1rem;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0D8de35sk-uPDMtV5X3OZ0mZu_pbrNS74MiWQ_I97xGR6jWMR0t9WchHDy2yQ1952x1E&usqp=CAU");
+  gap: 20px;
+  transition: transform 0.2s;
+  font-size: 18px;
+  font-weight: 600;
+  color: #007ad0;
+}
+
+.boxx:hover {
+  transform: scale(1.1);
+}
+.input {
+  border: none;
+  width: 30%;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #b9e4f5;
+  margin-top: 30px;
+}
+.btn {
+  border: none;
+  border-radius: 6px;
+  width: 10%;
+  padding: 7px;
+  background-color: #007ad0;
+  color: #b9e4f5;
+  font-size: 15px;
+  margin-left: 18px;
+}
+
+.favbtn {
+  border-radius: 6px;
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #007ad0;
+  color: #b9e4f5;
+}
+h3 {
+  color: #007ad0;
+}
+.fav {
+  border: none;
+  cursor: pointer;
+}
