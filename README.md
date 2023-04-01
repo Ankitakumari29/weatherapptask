@@ -1,12 +1,12 @@
 # weatherapptask
-#description
+
+##description
+
 The provided code is a React application that displays the current weather information for a user's location or for a city they search for. The weather data is fetched from the OpenWeatherMap API using an API key.
 The application allows users to add favourite cities to a list and retrieve weather information for those cities by clicking on their name. Users can also toggle a list of their favourite cities to display.
 The user interface is styled using CSS, including a background image and custom fonts from Google Fonts.
 The application uses React hooks, specifically useState and useEffect, to manage the application state and update the UI when necessary. The handleSearch function is triggered when a user enters a city name into the input field and submits the form.
 Overall, the application provides a simple and user-friendly way to retrieve and display weather information using React and the OpenWeatherMap API.
-
-# weatherapptask
 
 # hosted link
 
@@ -16,12 +16,11 @@ https://resonant-fox-dafe82.netlify.app/
 
 1. react-router-dom
 2. fontawesome
-3. react-date-range
-4.@emotion/react
-5.@emotion/styled
-6.@mui/icons-material
-7.@mui/material
-8.loader-utils
+3.@emotion/react
+4.@emotion/styled
+5.@mui/icons-material
+6.@mui/material
+7.loader-utils
 
 
 
