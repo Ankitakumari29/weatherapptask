@@ -1,6 +1,6 @@
 # weatherapptask
 
-##description
+# description
 
 The provided code is a React application that displays the current weather information for a user's location or for a city they search for. The weather data is fetched from the OpenWeatherMap API using an API key.
 The application allows users to add favourite cities to a list and retrieve weather information for those cities by clicking on their name. Users can also toggle a list of their favourite cities to display.
@@ -16,13 +16,6 @@ https://resonant-fox-dafe82.netlify.app/
 
 1. react-router-dom
 2. fontawesome
-3.@emotion/react
-4.@emotion/styled
-5.@mui/icons-material
-6.@mui/material
-7.loader-utils
-
-
 
 # Getting Started with Create React App
 
@@ -94,22 +87,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# hosted link
-
-https://resonant-fox-dafe82.netlify.app/
-
-# Dependencies used
-
-1. react-router-dom
-2. fontawesome
-3.@emotion/react
-4.@emotion/styled
-5.@mui/icons-material
-6.@mui/material
-7.loader-utils
-
-
 
 # Getting Started with Create React App
 
