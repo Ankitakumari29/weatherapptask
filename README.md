@@ -1,6 +1,10 @@
 # weatherapptask
 
-# description
+## overview
+
+
+
+## description
 
 The provided code is a React application that displays the current weather information for a user's location or for a city they search for. The weather data is fetched from the OpenWeatherMap API using an API key.
 The application allows users to add favourite cities to a list and retrieve weather information for those cities by clicking on their name. Users can also toggle a list of their favourite cities to display.
