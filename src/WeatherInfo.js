@@ -5,6 +5,7 @@ const apiKey = "9f062e6adce8e561137df33ee90c84a3";
 function WeatherInfo() {
   const [weatherData, setWeatherData] = useState(null);
   const [showFavourites, setShowFavourites] = useState(false);
+
   const [favouriteCities, setFavouriteCities] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -109,30 +110,27 @@ function WeatherInfo() {
           Search
         </button>
       </form>
-      <button
-        className="favbtn"
-        onClick={() => handleAddFavourite(weatherData.name)}
-      >
-        Add to Favourites
-      </button>
-      <button
-        className="favbtn"
-        onClick={() => setShowFavourites(!showFavourites)}
-      >
-        Show Favourites
-      </button>
+      <div className="button">
+        <button
+          className="btn "
+          onClick={() => handleAddFavourite(weatherData.name)}
+        >
+          Add to Favourites
+        </button>
+        <button
+          className="btn "
+          onClick={() => setShowFavourites(!showFavourites)}
+        >
+          Show Favourites
+        </button>
+      </div>
+
       {showFavourites && (
-        <div>
-          <h3>Favourite Cities</h3>
+        <div className="fav">
           <ul>
             {favouriteCities.map((city) => (
               <li key={city}>
-                <button
-                  className="fav"
-                  onClick={() => handleFavouriteClick(city)}
-                >
-                  {city}
-                </button>
+                <h4 onClick={() => handleFavouriteClick(city)}>{city}</h4>
               </li>
             ))}
           </ul>
